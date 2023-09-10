@@ -19,7 +19,8 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         registerBinding = ActivityRegisterBinding.inflate(layoutInflater)
         val view = registerBinding.root
-        setContentView(R.layout.activity_register)
+//        setContentView(R.layout.activity_register)
+        setContentView(view)
 
         registerBinding.registerButton.setOnClickListener {
             val name = registerBinding.nameEditText.text.toString()
@@ -51,10 +52,10 @@ class RegisterActivity : AppCompatActivity() {
                 val format = "MM/dd/yyyy"
                 val sdf = SimpleDateFormat(format, Locale.US)
                 dateOfBirth = sdf.format(cal.time).toString()
-                registerBinding.datePickerButton.setText(dateOfBirth)
+                registerBinding.datebutton.setText(dateOfBirth)
             }
 
-        registerBinding.datePickerButton.setOnClickListener {
+        registerBinding.datebutton.setOnClickListener {
             DatePickerDialog(
                 this,
                 dateSetListener,
