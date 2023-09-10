@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Movies</string>
+    <string name="email">Correo Electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="rep_password">Repetir Contraseña</string>
+    <string name="Register">Registrarse</string>
+    <string name="info">Informacion</string>
+    <string name="name">Nombre</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="action_genre">Accion</string>
+    <string name="horror_genre">Terror</string>
+    <string name="fiction_genre">Ficcion</string>
+    <string name="animation_genre">Animacion</string>
+    <string name="documentary_genre">Documentales</string>
+    <string name="drama_genre">Drama</string>
+    <string name="date_of_birth">Fecha De Nacimiento</string>
+</resources>
